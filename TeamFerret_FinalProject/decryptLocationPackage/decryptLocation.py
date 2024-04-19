@@ -28,8 +28,3 @@ def decrypt_ferret_location(json_file_path, english_txt_path):
 
     return decrypted_location.strip()
 
-# Example usage:
-json_file_path = r"EncryptedGroupHints Spring 2024 Section 001-1.json"  # Adjust the file path as needed
-english_txt_path = 'UCEnglish.txt'  # Adjust the file path as needed
-decrypted_ferret_location = decrypt_ferret_location(json_file_path, english_txt_path)
-print("Decrypted Ferret Location:", decrypted_ferret_location)
