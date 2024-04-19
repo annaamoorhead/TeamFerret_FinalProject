@@ -25,7 +25,4 @@ def decrypt_filename(filename_key):
         return "Filename key not found in the encrypted data."
 
 # Usage:
-filename_key = "Ferret"
-decrypted_filename = decrypt_filename(filename_key)
-print("Decrypted Filename for", filename_key + ":", decrypted_filename)
 
